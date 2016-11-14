@@ -1,9 +1,10 @@
- FROM acidaniel/frontend:latest
+#!/bin/sh
 
- MAINTAINER Daniel Serna
+ #prevent conflicts with existing
 
- RUN apk  add --no-cache git \
-   && npm install -g \
+ rm -rf node_modules
+
+ /usr/bin/npm link \
    bower \
    breakpoint-sass \
    browser-sync \
@@ -18,6 +19,6 @@
    kss \
    node-sass-import-once \
    support-for \
-   susy 
+   susy
 
-COPY docker-entrypoint.sh /usr/bin/
+ exec "$@"
