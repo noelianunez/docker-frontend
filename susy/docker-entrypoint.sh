@@ -2,7 +2,7 @@
 
  #prevent conflicts with existing
 
- rm -rf node_modules
+# rm -rf node_modules
 
  /usr/bin/npm link \
    bower \
@@ -10,6 +10,7 @@
    browser-sync \
    chroma-sass \
    eslint \
+   gulp \
    gulp-autoprefixer \
    gulp-eslint \
    gulp-rename \
