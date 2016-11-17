@@ -11,6 +11,7 @@
     chroma-sass \
     eslint \
     gulp-autoprefixer \
+    gulp-compass \
     gulp-eslint \
     gulp-notify \
     gulp-rename \
