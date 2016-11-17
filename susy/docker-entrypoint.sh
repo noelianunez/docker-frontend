@@ -13,7 +13,9 @@
    gulp \
    gulp-autoprefixer \
    gulp-eslint \
+   gulp-notify \
    gulp-rename \
+   gulp-sass \
    gulp-sass-lint \
    gulp-size \
    gulp-sourcemaps \

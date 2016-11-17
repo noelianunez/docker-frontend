@@ -12,6 +12,7 @@
     eslint \
     gulp-autoprefixer \
     gulp-eslint \
+    gulp-notify \
     gulp-rename \
     gulp-sass-lint \
     gulp-size \
@@ -25,4 +26,3 @@
 
   RUN chmod 775 /usr/bin/docker-entrypoint.sh
 
-  ENV http_proxy "http://proxy-us.intel.com:911"
