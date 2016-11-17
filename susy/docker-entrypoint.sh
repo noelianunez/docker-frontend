@@ -22,6 +22,7 @@
    kss \
    node-sass-import-once \
    support-for \
-   susy
+   susy \
+   node-normalize-scss
 
  exec "$@"
