@@ -24,6 +24,7 @@
    node-sass-import-once \
    support-for \
    susy \
-   node-normalize-scss
+   node-normalize-scss \
+   gulp-concat
 
  exec "$@"
